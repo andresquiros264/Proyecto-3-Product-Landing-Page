@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Proyecto3</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="normalize.css" />
+
+    <link rel="stylesheet" href="Proyecto3.css" />
+  </head>
+  <!-- codigo de js para menu de test en freecodecamp
+
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+  <body>
+    <div id="page-wrapper">
+      <header id="header">
+        <h1>
+          ciclo tachy <br />
+          bicicletas
+        </h1>
+        <figure class="logo">
+          <img
+            id="header-img"
+            src="https://scontent.fpei3-1.fna.fbcdn.net/v/t1.6435-9/71915695_126474448749770_6530271261287776256_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=bnhG6iafsqAAX87NFlZ&_nc_ht=scontent.fpei3-1.fna&oh=b8f8da27ac1ceb307dba5793e91e7090&oe=608E4E6B"
+            alt="ciclo tachi bicicletas medelin colombia"
+          />
+        </figure>
+        <nav id="nav-bar">
+          <ul>
+            <li>
+              <a class="nav-link" href="#A-futuro">
+                <span>A futuro</span>
+              </a>
+            </li>
+            <li>
+              <a class="nav-link" href="#especificaciones">
+                <span>especificaciones</span>
+              </a>
+            </li>
+            <li>
+              <a class="nav-link" href="#precio">
+                <span>Precio</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="container"></div>
+
+      <section id="hero">
+        <h2>Exelentes Bicicletas, Para Disfrutar tu Pasion</h2>
+        <form id="form" action="https://www.freecodecamp.com/email-submit">
+          <input
+            name="email"
+            id="email"
+            type="email"
+            placeholder="ingrese su correo"
+            required
+          />
+          <input id="submit" type="submit" value="empezar" class="btn" />
+        </form>
+      </section>
+
+      <div class="container">
+        <section id="A-futuro">
+          <div class="grid">
+            <div class="icon">
+              <i class="fa fa-bicycle fa-3x" aria-hidden="true"></i>
+            </div>
+            <div class="desc">
+              <h2>Materiales Premium</h2>
+              <p>
+                Acero, aluminio, fibra de carbono y titanio. Éstos son los
+                materiales más comunes con los que se elaboran los cuadros de
+                bicicletas.
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon"><i class="fab fa-grav fa-3x"></i></div>
+            <div class="desc">
+              <h2>El peso</h2>
+              <p>
+                Muchos ciclistas prefieren una bicicleta de carbono a una de
+                aluminio porque el cuadro de la primera pesa 300 gramos menos
+                (en algunos modelos es incluso menor)
+              </p>
+            </div>
+          </div>
+          <div class="grid">
+            <div class="icon">
+              <i class="fa fa-cog fa-3x" aria-hidden="true"></i>
+            </div>
+            <div class="desc">
+              <h2>Componentes</h2>
+              <p>
+                El aluminio es el material más utilizado actualmente para la
+                fabricación de cuadros de bicicleta. De cuadros y de manillares,
+                bielas, tijas y componentes diversos. Se introdujo en la
+                industria del ciclismo hacia la década de 1970 y hoy todas las
+                principales marcas de bicicletas cuentan en sus gamas con
+                modelos de aluminio de forma mayoritaria.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="especificaciones">
+          <figure>
+            <iframe
+              id="video"
+              width="640"
+              height="360"
+              src="https://www.youtube.com/embed/0h15758n6Sw"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </figure>
+        </section>
+        <section id="precio">
+          <div class="product" id="tenor">
+            <div class="level">Marco de aluminio</div>
+            <h2>$600</h2>
+            <ol>
+              <li>buen peso</li>
+              <li>buena resistencia</li>
+              <li>buen balance</li>
+              <li>dimension ideal</li>
+            </ol>
+            <button class="btn">seleccionar</button>
+          </div>
+          <div class="product" id="bass">
+            <div class="level">Marco de carbono</div>
+            <h2>$900</h2>
+            <ol>
+              <li>gran calidad peso</li>
+              <li>gran resistencia</li>
+              <li>gran balance</li>
+              <li>dimension ideal</li>
+            </ol>
+            <button class="btn">seleccionar</button>
+          </div>
+          <div class="product" id="valve">
+            <div class="level">Marco de titanio</div>
+            <h2>$1200</h2>
+            <ol>
+              <li>exelente peso</li>
+              <li>exelente resistencia</li>
+              <li>exelente balance</li>
+              <li>dimension ideal</li>
+            </ol>
+            <button class="btn">seleccionar</button>
+          </div>
+        </section>
+        <footer>
+          <ul>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+          <span>Copyrihgt 2021, ciclo tachi</span>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>
